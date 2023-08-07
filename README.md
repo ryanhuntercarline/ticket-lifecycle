@@ -2,19 +2,17 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket - Ticket Lifecycle: Ticket Submittal Through Resolution</h1>
+This tutorial outlines the lifecycle of a ticket from ticket submittal to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
+- osTicket
 
 <h2>Operating Systems Used </h2>
 
@@ -22,33 +20,52 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Ticket Lifecycle Stages</h2>
 
-- Intake
-- Assignment and Communication
-- Working the Issue
+- Ticket Submittal 
+- Assignment
+- Communication
 - Resolution
 
 <h2>Lifecycle Stages</h2>
 
+<h2>Ticket Submittal</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![TicketSubmittal](https://github.com/ryanhuntercarline/ticket-lifecycle/assets/141659465/879eb679-59a9-45a4-b49c-15044a3dc84e)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Users (or customers) will initiate the service ticket submission process, during which they select a relevant "Help Topic" and provide a concise summary of the issue being reported. As seen above all ticket submittals by users are attached to the user's email address. 
+
 </p>
 <br />
+<h2>Assignment</h2>
+<p>
+
+  ![Assignment](https://github.com/ryanhuntercarline/ticket-lifecycle/assets/141659465/be6a0ee3-77cb-45ce-8775-05c4eac324ec)
+
+</p>
+<p>
+
+</p>
+<br />
+<h2>Communication</h2>
+
+After submission, a queue manager will assess the priority, SLA, and assignment for each ticket in the queue, followed by agent actions aligned with the company's SLA protocols and procedures. 
+<p>
+  
+![Communication](https://github.com/ryanhuntercarline/ticket-lifecycle/assets/141659465/51d628e3-5d64-4355-bded-045bde90cc88)
+
+</p>
+<p>
+Upon assignment, it becomes the agent's responsibility to adhere to company guidelines and facilitate effective communication across all pertinent channels, encompassing clients, team-specific agents, other departments, and management, while maintaining a professional and timely approach.
+
+</p>
+<br />
+<h2>Resolution</h2>
+<p>
+  
+![Screenshot 2023-08-07 145922](https://github.com/ryanhuntercarline/ticket-lifecycle/assets/141659465/cda2b7db-94db-4cfd-93f6-71602157e5c0)
+
+</p>
+<br />
+Once a resolution is reached for the ticket's associated issue, the agent is required to compose a detailed update outlining the problem's resolution and any requisite follow-up actions. Notification to the user (or customer) is essential, and confirmation of the correction should precede the transition of the ticket status to "Resolved."
